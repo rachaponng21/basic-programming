@@ -1,12 +1,12 @@
-const firstName: string = 'รัชพงษ์'
+const firstName: string = 'Rachapong'
 let y:Number = 10
 y=20
-let อยากกลับบ้าน:boolean = true
+let WantToGoHome :boolean = true
 
 
 console.log(firstName)
 console.log(y)
-console.log(อยากกลับบ้าน) 
+console.log(WantToGoHome) 
 
 let a :number = 20
 let b :number = 30
