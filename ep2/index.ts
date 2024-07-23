@@ -45,6 +45,6 @@ function rachapong(homework: number, midterm: number, final: number) {
     }
 }
         
-console.log(rachapong(10, 25, 35))
+console.log(rachapong(24, 40, 68))
 
 
