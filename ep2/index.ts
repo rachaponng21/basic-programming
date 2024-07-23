@@ -29,7 +29,7 @@ function grade(homework: number, midterm: number, final: number) {
 
 console.log(grade(10, 50, 65))
 
-function grade1(homework: number, midterm: number, final: number) {
+function rachapong(homework: number, midterm: number, final: number) {
     let score: number = homework + midterm + final
 
     if (score < 50) {
@@ -45,6 +45,6 @@ function grade1(homework: number, midterm: number, final: number) {
     }
 }
         
-console.log(grade1(10, 25, 35))
+console.log(rachapong(10, 25, 35))
 
 
