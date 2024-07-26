@@ -37,3 +37,35 @@ function sf(mname: string, zname: string, fname:string) {
 }
 
 sf('mix','zane','forth')
+
+function sr(m: string, z: string, f:string) {
+
+    if (!(m === 'mix' || z === 'zane') && f === 'forth') {
+        console.log('พร้อมเรียน')
+    } else {
+        console.log('ยังไม่พร้อมเรียน')
+    }
+}
+
+sr('mix','zane','forth')
+
+function ep(s: string, t: number, w: number) {
+    
+    if (s === 'เพศชาย' && t > 170 || (w > 50 && w <= 110)) {
+        console.log("จับใบดำใบแดง")
+    } else {
+        console.log("ไม่เข้าเกณฑ์")
+    }
+}
+        
+ep('เพศชาย',167,48)
+
+function dw(a: number, p: number, d: number) {
+    if (a > 16 && p < 70000 && d < 50000) {
+        console.log("รับ 10000 บาท")
+    } else {
+        console.log("อด.....")
+    }
+}
+
+dw(19, 15000, 45000)
