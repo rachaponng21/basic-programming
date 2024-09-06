@@ -1,0 +1,15 @@
+const me = {
+    fistName: 'Rachapong',
+    lastName: 'Waengchaiyaphum',
+    age: 19,
+    birtday: 21/8/2548,
+    telephone:909108424 ,
+    email : rachapongprivate21@gmail.com ,
+    sex : 'male',
+    addres : 'Spain',
+    city : 'lamasia',
+    numBerCity : 850005,
+    street :  'mardird',
+    numberStreet : 10,
+    mail : 'judebellingham05@gmail.com'
+}
